@@ -15,11 +15,14 @@ img {
   margin-right: 0.4rem; }
 
 #showcase {
-  background: url(../img/showcase.jpg) no-repeat top center fixed/cover;
+  background: url(../img/showcase.jpg) no-repeat center top fixed;
+  background-size: cover;
   position: relative;
   min-height: 650px;
   color: #fff;
-  padding-top: 6rem; }
+  padding-top: 6rem;
+}
+
   #showcase .home-search {
     min-height: 400px;
     position: relative;
@@ -34,10 +37,13 @@ img {
     background: rgba(51, 51, 51, 0.8); }
 
 #services {
-  background: url(../img/building.jpg) no-repeat top center fixed/cover;
+  background: url(../img/building.jpg) no-repeat center top fixed;
+  background-size: cover;
   min-height: 300px;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+}
+  
   #services::before {
     content: '';
     position: absolute;
@@ -45,13 +51,17 @@ img {
     left: 0;
     min-height: 100%;
     width: 100%;
-    background: rgba(32, 134, 107, 0.8); }
-
+    background: rgba(32, 134, 107, 0.8);
+  }
+  
 #showcase-inner {
-  background: url(../img/building.jpg) no-repeat top center fixed/cover;
+  background: url(../img/building.jpg) no-repeat center top fixed;
+  background-size: cover;
   position: relative;
   overflow: hidden;
-  min-height: 200px; }
+  min-height: 200px;
+}
+  
   #showcase-inner::before {
     content: '';
     position: absolute;
@@ -59,9 +69,12 @@ img {
     left: 0;
     min-height: 100%;
     width: 100%;
-    background: rgba(32, 134, 107, 0.8); }
+    background: rgba(32, 134, 107, 0.8);
+  }
+  
   #showcase-inner.showcase-search {
-    min-height: 270px; }
+    min-height: 270px;
+  }
 
 #work {
   padding: 6rem 0; }

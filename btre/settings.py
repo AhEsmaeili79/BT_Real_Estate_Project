@@ -148,3 +148,14 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
+
+# email config
+
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'  # or your email host
+# EMAIL_PORT = 587  # or 465 for SSL
+# EMAIL_USE_TLS = True  # or EMAIL_USE_SSL = True if using SSL
+# EMAIL_HOST_USER = 'test.from.amir@gmail.com'
+# EMAIL_HOST_PASSWORD = 'Amir1379hossein'
+# DEFAULT_FROM_EMAIL = 'test.from.amir@gmail.com'
+
